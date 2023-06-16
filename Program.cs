@@ -18,7 +18,7 @@ public sealed class ATM { //запрещает наследовать от эт�
   }
   public void Deposit(decimal amount) {
     balance += amount;
-    Console.WriteLine("Баланс пополнен.");
+    Console.WriteLine("Операция выполнена.");
   }
   public void Withdraw(decimal amount) {
     if (balance >= amount) {
